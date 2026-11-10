@@ -1,5 +1,6 @@
 name: Unzip
 on:
+  workflow_dispatch:
   push:
     paths: ['ClassicAnime.zip']
 permissions:
